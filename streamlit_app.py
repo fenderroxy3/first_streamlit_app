@@ -44,7 +44,7 @@ streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
 #New Section to display customer selection
-fruit=selection = streamlit.text_input('What fruit would you like to add?')
+fruit_selection = streamlit.text_input('What fruit would you like to add?')
 streamlit.write('Thank you for addding ', fruit_selection)
 
 import requests
